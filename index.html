@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Shop</title>
+
+
+</head>
+
+<body>
+
+
+  <div class="wrapper">
+
+
+    <div class="error__overlay js_error__overlay">
+      <div class="error">
+        <span class="text bold error__text error__title">ERROR:</span>
+        <p class="text error__text">You cannot add more than $500 worth of items to your cart.</p>
+        <p class="text error__text">The selected item will not be added.</p>
+        <button class="text error__btn js_error__btn">close</button>
+      </div>
+    </div>
+
+    <main class="main">
+
+      <div class="hero__wrapper-main">
+      
+        <div class="header__wrapper">
+          <div class="container">
+         
+         
+            <header class="header">
+              <div class="header__top">
+                <div class="header__btn-block">
+                  <button class="header__btn js_menu-btn">
+                    <span></span>
+                  </button>
+                </div>
+                <a href="./shop.html" class="cart__span-box">
+                  <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
+                      <g><g><path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
+                          c29.184,0,53.248-23.552,53.248-53.248C398.336,362.926,374.784,338.862,345.6,338.862z"/>
+                      </g></g>
+                      <g><g><path d="M439.296,84.91c-1.024,0-2.56-0.512-4.096-0.512H112.64l-5.12-34.304C104.448,27.566,84.992,10.67,61.952,10.67H20.48
+                          C9.216,10.67,0,19.886,0,31.15c0,11.264,9.216,20.48,20.48,20.48h41.472c2.56,0,4.608,2.048,5.12,4.608l31.744,216.064
+                          c4.096,27.136,27.648,47.616,55.296,47.616h212.992c26.624,0,49.664-18.944,55.296-45.056l33.28-166.4
+                          C457.728,97.71,450.56,86.958,439.296,84.91z"/>
+                      </g></g>
+                      <g><g><path d="M215.04,389.55c-1.024-28.16-24.576-50.688-52.736-50.688c-29.696,1.536-52.224,26.112-51.2,55.296
+                          c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z"/>
+                      </g></g>
+                    </svg> 
+                    <span class="cart__span js_cart__span"></span>
+                </a>
+    
+                  <nav class="nav js_menu">
+                    <a href="./index.html" class="header__logo logo js_website-name"></a>
+                  
+                    <ul class="nav__list">
+                      <li class="nav__item">
+                        <a href="./contacts.html" class="nav__item">Contact Us</a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="./return.html" class="nav__item">Return Policy</a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="./purchase.html" class="nav__item">Terms of Purchase</a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="./privacy.html" class="nav__item">Privacy Notice</a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="./shipping.html" class="nav__item">Shipping Policy</a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="./use.html" class="nav__item">Terms of Use</a>
+                      </li>
+                    </ul>
+                  </nav>
+              
+              </div>
+            </header>
+         
+          </div>
+        </div>
+
+        <div class="hero__wrapper">
+          <div class="container">
+            <section class="hero">
+              <div class="hero__block">
+                <div class="hero__sub-block">
+                  <h1 class="title">Always ahead</h1>
+                  <p class="text">Online shopping is the best way to buy everything you need in two clicks.</p>
+                  <a href="./shop.html" class="btn">go to cart</a>
+                </div>
+                <ul class="hero__list">
+                  <li class="hero__item email">
+                    <a href="" class="text hero__item-link  js_website-email"></a>
+                  </li>
+                  <li class="hero__item phone">
+                    <a href="" class="text hero__item-link  js_website-phone"></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="hero__img-box">
+                <svg class="hero__svg first" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">                    <defs>                         <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">                            <stop id="stop1" stop-color="rgba(254, 185, 3, 1)" offset="0%"></stop>                            <stop id="stop2" stop-color="rgba(254, 185, 3, 1)" offset="100%"></stop>                        </linearGradient>                    </defs>                <path fill="url(#sw-gradient)" d="M27.2,-33.6C33.1,-27.4,34.4,-16.8,34.3,-7.5C34.2,1.8,32.6,9.9,28.8,16.7C24.9,23.5,18.8,29.1,11.1,32.8C3.5,36.6,-5.7,38.6,-12.9,35.8C-20.2,33.1,-25.7,25.5,-31,17.4C-36.4,9.2,-41.7,0.5,-41.8,-8.8C-41.8,-18,-36.6,-27.7,-28.7,-33.6C-20.9,-39.5,-10.4,-41.7,0.1,-41.7C10.6,-41.8,21.2,-39.9,27.2,-33.6Z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0" style="transition: all 0.3s ease 0s;"></path>              
+                </svg>
+                <svg class="hero__svg second" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">                    <defs>                         <linearGradient id="sw-gradient2" x1="0" x2="1" y1="1" y2="0">                            <stop id="stop1" stop-color="rgba(253, 73, 2, 1)" offset="0%"></stop>                            <stop id="stop2" stop-color="rgba(253, 73, 2, 1)" offset="100%"></stop>                        </linearGradient>                    </defs>                <path fill="url(#sw-gradient2)" d="M25.3,-28.4C33.2,-23.4,40.5,-15.9,40.8,-8.1C41.1,-0.3,34.4,7.8,28.7,15.5C23,23.1,18.3,30.3,11.3,34.4C4.2,38.4,-5.2,39.3,-12.5,35.9C-19.7,32.5,-24.8,24.9,-29.4,16.9C-34,9,-38.1,0.8,-37.5,-7.2C-36.8,-15.2,-31.3,-23,-24.2,-28.1C-17.2,-33.3,-8.6,-35.9,0,-35.9C8.7,-35.9,17.3,-33.4,25.3,-28.4Z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0" style="transition: all 0.3s ease 0s;"></path>              
+                </svg>
+                <img src="./img/bg5.jpeg" alt="" class="hero__img">
+              </div>
+            </section>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="contacts__wrapper">
+        <div class="container">
+          <section class="contacts">
+            <div class="contacts__box">
+              <h3 class="sub-title  contacts__title">Our Contacts</h3>
+              <p class="text text--mb">If you require help, please do not hesitate and feel free to reach us at email.
+                We would be more than happy to answer your questions.</p>
+                <a href="./contacts.html" class="btn">Contact us</a>
+                <ul class="contacts__list">
+                  <li class="contacts__item">
+                   
+                    <span class="text js_website-address">website address</span>
+                  </li>
+                  <li class="contacts__item contacts__item-link">
+                   
+                    <a href="mailto:website email" class="text js_website-email">website email</a>
+                  </li>
+                  <li class="contacts__item contacts__item-link">
+                   
+                    <a href="tel:website phone" class="text js_website-phone">website phone</a>
+                  </li>
+                </ul>
+            </div>
+
+
+            <div class="contacts__list-box">
+             
+                <div class="contacts__sub-box first">
+                  <div class="contacts__sub-box second">
+                    <div class="contacts__sub-box third">
+                      <div class="contacts__sub-box fourth"></div>
+                    </div>
+                  </div>
+                </div>
+                <ul class="contacts__sub-list">
+                  <li class="contacts__sub-item"></li>
+                  <li class="contacts__sub-item"></li>
+                  <li class="contacts__sub-item"></li>
+                </ul>
+        
+            </div>
+          </section>
+        </div>
+      </div>
+
+
+      <div class="question__wrapper">
+        <div class="container">
+          <section class="question">
+         
+            <div class="question__box">
+              <h3 class="sub-title  question__title">
+                FAQ
+              </h3>
+              <ul class="question__list">
+                <li class="question__item">
+                  <p class="question__sub-title">How can I track my order?</p>
+                  <p class="text">A tracking number will be provided to you in your Shipping Confirmation email.</p>
+                </li>
+                <li class="question__item">
+                  <p class="question__sub-title">How can I change my Shipping Address?</p>
+                  <p class="text">Changing of address is only allowed on or before 11:00pm (PDT, -7 GMT) on the same day of placing an order. You may contact us via <a href="mailto:website email" class="link js_website-email">website email</a> to request for such changes.</p>
+                </li>
+                <li class="question__item">
+                  <p class="question__sub-title">How is my order shipped?</p>
+                  <p class="text">The standard ground mail service is shipped via United States Postal Service First Class Mail. Packages will arrive within 3-5 business days. Please be advised that shipments are not sent out on Saturdays, Sundays, or any Holidays. We do not guarantee arrival dates or times.</p>
+                </li>
+
+              </ul>
+            </div>
+            <div class="question__img-block">
+                <img src="./img/bg.jpeg" alt="" class="question__img">
+            </div>
+          </section>
+        </div>
+      </div>
+
+
+
+      <div class="products__wrapper hero-products">
+        <div class="container">
+          <section class="products">
+            <div class="products__box">
+
+              <h3 class="sub-title  products__title">Our Products</h3>
+              <p class="text">We have everything you need!</p>
+              <div class="sub-title__box">
+                <p class="text success-message js_success-message">Success! You have added <span
+                    class="js_success-product-name"></span> to your shopping cart!</p>
+              </div>
+            </div>
+
+            <div class="swiper__box">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper js_products__list">
+                </div>
+                <div class="swiper-button-next">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 476.213 476.213" style="enable-background:new 0 0 476.213 476.213;"
+                    xml:space="preserve">
+                    <polygon points="345.606,107.5 324.394,128.713 418.787,223.107 0,223.107 0,253.107 418.787,253.107 324.394,347.5 
+                  345.606,368.713 476.213,238.106 "></polygon>
+                  </svg>
+                </div>
+                <div class="swiper-button-prev">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 476.213 476.213" style="enable-background:new 0 0 476.213 476.213;"
+                    xml:space="preserve">
+                    <polygon points="476.213,223.107 57.427,223.107 151.82,128.713 130.607,107.5 0,238.106 130.607,368.714 151.82,347.5 
+                  57.427,253.107 476.213,253.107 "></polygon>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+          </section>
+        </div>
+      </div>
+
+      <div class="policy__wrapper">
+        <div class="container">
+          <section class="policy">
+            <h3 class="sub-title  policy__title">Our Policies</h3>
+            <div class="policy__box">
+              <div class="policy__block policy__block--top">
+                <h3 class="policy__sub-title">PRIVACY NOTICE</h3>
+                <p class="text">We are committed to providing an exciting and safe online shopping experience and
+                  elevated level of personal service synonymous with the Company.</p>
+                <a href="./privacy.html" class="btn">read more</a>
+                <div class="policy__icon">
+                  <svg class="policy__icon-svg" viewBox="0 0 17 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+                    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <g id="Rounded" transform="translate(-682.000000, -1261.000000)">
+                        <g id="Communication" transform="translate(100.000000, 1162.000000)">
+                          <g id="-Round-/-Communication-/-phonelink_lock" transform="translate(578.000000, 98.000000)">
+                            <g transform="translate(0.000000, 0.000000)">
+                              <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                              <path d="M19,1 L9,1 C7.9,1 7,1.9 7,3 L7,5 C7,5.55 7.45,6 8,6 C8.55,6 9,5.55 9,5 L9,4 L19,4 L19,20 L9,20 L9,19 C9,18.45 8.55,18 8,18 C7.45,18 7,18.45 7,19 L7,21 C7,22.1 7.9,23 9,23 L19,23 C20.1,23 21,22.1 21,21 L21,3 C21,1.9 20.1,1 19,1 Z M10.8,11 L10.8,9.5 C10.8,8.1 9.4,7 8,7 C6.6,7 5.2,8.1 5.2,9.5 L5.2,11 C4.6,11 4,11.6 4,12.2 L4,15.7 C4,16.4 4.6,17 5.2,17 L10.7,17 C11.4,17 12,16.4 12,15.8 L12,12.3 C12,11.6 11.4,11 10.8,11 Z M9.5,11 L6.5,11 L6.5,9.5 C6.5,8.7 7.2,8.2 8,8.2 C8.8,8.2 9.5,8.7 9.5,9.5 L9.5,11 Z" id="🔹Icon-Color" fill="#ff8c00"></path>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+
+              <div class="policy__block policy__block--bottom">
+                <h3 class="policy__sub-title">RETURN POLICY</h3>
+                <p class="text">The items are eligible for free replacement, within 30 days of delivery, in an
+                  unlikely event of damaged, defective or different item delivered to you.</p>
+                <a href="./return.html" class="btn">read more</a>
+                <div class="policy__icon">
+                  <svg class="policy__icon-svg" viewBox="0 0 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+                    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <g id="Outlined" transform="translate(-613.000000, -199.000000)">
+                        <g id="Action" transform="translate(100.000000, 100.000000)">
+                          <g id="Outlined-/-Action-/-assignment_return" transform="translate(510.000000, 98.000000)">
+                            <g>
+                              <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                              <path d="M12,14 L16,14 L16,10 L12,10 L12,7 L7,12 L12,17 L12,14 Z M19,3 L14.82,3 C14.4,1.84 13.3,1 12,1 C10.7,1 9.6,1.84 9.18,3 L5,3 C4.86,3 4.73,3.01 4.6,3.04 C4.21,3.12 3.86,3.32 3.59,3.59 C3.41,3.77 3.26,3.99 3.16,4.23 C3.06,4.46 3,4.72 3,5 L3,19 C3,19.27 3.06,19.54 3.16,19.78 C3.26,20.02 3.41,20.23 3.59,20.42 C3.86,20.69 4.21,20.89 4.6,20.97 C4.73,20.99 4.86,21 5,21 L19,21 C20.1,21 21,20.1 21,19 L21,5 C21,3.9 20.1,3 19,3 Z M12,2.75 C12.41,2.75 12.75,3.09 12.75,3.5 C12.75,3.91 12.41,4.25 12,4.25 C11.59,4.25 11.25,3.91 11.25,3.5 C11.25,3.09 11.59,2.75 12,2.75 Z M19,19 L5,19 L5,5 L19,5 L19,19 Z" id="🔹-Icon-Color" fill="#ff8c00"></path>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+          </section>
+        </div>
+      </div>
+
+
+
+
+
+
+
+    </main>
+
+    <div class="footer__wrapper">
+      <div class="container">
+        <footer class="footer">
+          <div class="footer__top">
+            <div class="footer__top-block">
+              <div class="footer__block">
+                <p class="footer__title">Terms</p>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a href="./purchase.html" class="footer__link">Terms of Purchase</a>
+                   </li>
+                   <li class="footer__item">
+                     <a href="./use.html" class="footer__link">Terms of Use</a>
+                    </li>
+                </ul>
+              </div>
+              <div class="footer__block">
+                <p class="footer__title">Info</p>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a href="./contacts.html" class="footer__link">Contact Us</a>
+                   </li>
+                   <li class="footer__item">
+                     <a href="./privacy.html" class="footer__link">Privacy Notice</a>
+                    </li>
+                 
+                </ul>
+              </div>
+              <div class="footer__block">
+                <p class="footer__title">Policies</p>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a href="./return.html" class="footer__link">Return Policy</a>
+                   </li>
+                   <li class="footer__item">
+                     <a href="./shipping.html" class="footer__link">Shipping Policy</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__top-box">
+              <div>
+                <a href="./index.html" class="footer__logo logo js_website-name"></a>
+                <p class="text text--mb js_website-corp"></p>
+             
+              </div>
+              <span class="text text--mb js_website-address"></span>
+              <div class="footer__social-block">
+                <a href="" class="social-link social-link-email js_website-email"></a>
+                <a href="" class="social-link social-link-phone js_website-phone"></a>
+              </div>
+            </div>
+            <span class="footer__span">© All rights reserved</span>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+  <script type="module" src="./js/cart.js"></script>
+  <script type="module" src="./js/add-to-cart.js"></script>
+  <script type="module" src="./js/on-load.js"></script>
+  <script type="module" src="./js/website-data.js"></script>
+  <script>
+    const menuBtn = document.querySelector('.js_menu-btn');
+    const menu = document.querySelector('.js_menu');
+    menuBtn.addEventListener('click', () => {
+      menuBtn.classList.toggle('active');
+      menu.classList.toggle('open-menu');
+      document.body.classList.toggle('open-menu');
+    })
+  </script>
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+      const swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        watchSlidesProgress: true,
+        breakpoints: {
+          1440: {
+            slidesPerView: 4,
+            spaceBetween: 5,
+          }
+        }
+
+      });
+    });
+  </script>
+
+
+</body>
+
+</html>
