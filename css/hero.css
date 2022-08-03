@@ -356,13 +356,7 @@
         height: 55rem;
         position: relative;
     }
-    .question__img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 50%;
-    }
+ 
     .question__list {
         padding-left: 5rem;
         border-left: 1rem solid var(--third-brand-color);
